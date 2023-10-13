@@ -1,0 +1,100 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color:  hsl(0, 100%, 74%) ;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    font-family: Poppins;
+}
+.container{
+    background-image: url(desktop-bg.png);
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: Poppins;
+   
+    /* margin: 10% 10%; */
+}
+h1{
+    font-weight: bold;
+    font-weight: 700;
+    font-size: 40px;
+    margin-bottom: 20px;
+}
+.container-2{
+    display: flex;
+    width: 60%;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    /* height: 70%; */
+}
+.form{
+    background-color: white;
+    padding: 10px 20px;
+    justify-content: center;
+    border-radius: 5px;
+    text-align: center;
+    /* box-shadow: 10px 10px 5px gray; */
+    /* width: 100%; */
+}
+.content{
+    width: 50%;
+    color: white;
+}
+.content .hero{
+    padding: 10px 80px;
+    color: white;
+    
+   
+}
+.content p{
+    font-family: Poppins;
+    font-size: 12px;
+    font-weight: 200;
+}
+input{
+    width: 100%;
+    padding: 10px 0;
+    margin-top: 15px;
+    /* border-radius: 2px; */
+    /* border: 10px; */
+}
+.btn-1{
+    margin-bottom: 10px;
+    background-color: purple;
+    color: white;
+    border: none;
+    padding: 12px 5px;
+    width: 100%;
+    border-radius: 5px;
+}
+.btn-2{
+    width: 100%;
+    margin-top: 15px;
+    /* margin-bottom: 30px; */
+    padding: 10px;
+    background-color: rgb(26, 116, 108);
+    border: none;
+    border-radius: 5px;
+    color: white;
+    font-size: 15px;
+}
+.terms{
+    color: gray;
+    font-size: 10px;
+    align-self: center;
+    justify-self: center;
+    margin-top: 5px;
+    margin-bottom: 10px;
+}
+.link{
+    text-decoration: none;
+    color: red;
+}
